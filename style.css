@@ -93,3 +93,71 @@ body {
   padding: 3rem;
   background-color: #f9f8fe;
 }
+.link-anchor {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid #36957f;
+  text-decoration: none;
+  width: 10.6rem;
+  color: #36957f;
+}
+.arrow-mark {
+  vertical-align: middle;
+}
+.white-banner-div {
+  width: 21rem;
+  height: 14rem;
+  background-color: white;
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.second-heading {
+  font-family: "raleway";
+  font-size: 3rem;
+  width: 50rem;
+  line-height: 4rem;
+}
+.second-main-img {
+  width: 90%;
+  height: auto;
+}
+.content2-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.para-second-heading {
+  width: 34rem;
+}
+.para-another-heading {
+  width: 34rem;
+}
+.white-box-element {
+  padding-top: 0.5rem;
+  list-style: none;
+  width: 25rem;
+  font-size: small;
+  line-height: 1.4rem;
+}
+.avatar-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+.avatar {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
+.avatar-detail-container {
+  list-style: none;
+  font-size: x-small;
+  margin-top: 0.5rem;
+}
+.details1 {
+  font-weight: 700;
+}
