@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", "Raleway", sans-serif;
+  min-width: 100vh;
+  height: auto;
+}
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.logo-container {
+  padding-left: 3rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.navitem-container {
+  width: 30%;
+  list-style: none;
+  display: flex;
+}
+.list-class {
+  margin-right: 3rem;
+  padding: 10px;
+}
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.main1-img {
+  width: 90%;
+  height: auto;
+}
+.main-heading {
+  font-family: "raleway";
+  font-size: 3rem;
+  width: 45rem;
+  line-height: 4rem;
+}
+.para-for-heading {
+  font-family: "Open Sans";
+  width: 32rem;
+}
+.content-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.text-box-main {
+  padding: 0.7rem 3.8rem 0.7rem 3.8rem;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+}
+.btn-main {
+  padding: 0.7rem 3.2rem 0.7rem 3.2rem;
+  border-radius: 0.2rem;
+  border: transparent;
+  background-color: hsl(224, 93%, 58%);
+  cursor: pointer;
+  color: white;
+}
+.input-gathering {
+  display: flex;
+  gap: 1rem;
+}
+.bg-img-div {
+  display: flex;
+  width: 100%;
+}
+.bg-background {
+  width: 100%;
+}
+.next-row-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: #f9f8fe;
+}
