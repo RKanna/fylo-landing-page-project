@@ -315,7 +315,7 @@ body {
     margin: auto;
   }
   .para-for-heading {
-    width: 20rem;
+    width: 22rem;
     text-align: center;
   }
   .input-gathering {
@@ -325,18 +325,22 @@ body {
     order: 2;
   }
   .second-heading {
-    font-size: x-large;
+    padding-top: 3rem;
+    font-size: large;
     line-height: 2rem;
-    width: 20rem;
+    width: 25rem;
     text-align: center;
   }
   .para-second-heading {
-    width: 20rem;
-    text-align: center;
+    width: 23rem;
+    text-align: left;
   }
   .para-another-heading {
-    width: 20rem;
-    text-align: center;
+    width: 23rem;
+    text-align: left;
+  }
+  .white-banner-div {
+    margin: auto;
   }
   .link-anchor {
     margin: auto;
@@ -346,7 +350,7 @@ body {
     padding: 1rem;
   }
   .early-access {
-    font-size: x-large;
+    font-size: large;
     line-height: 2rem;
     text-align: center;
     width: auto;
@@ -359,12 +363,14 @@ body {
     margin: auto;
   }
   .info-gather-div {
+    padding-bottom: 4rem;
   }
   .text-box-main2 {
     margin: auto;
+    width: 19rem;
   }
   .btn-main2 {
-    width: 25rem;
+    width: 19rem;
     margin: auto;
   }
   .footer-section {
@@ -397,5 +403,12 @@ body {
   .logo {
     width: 140%;
     height: auto;
+  }
+  .logo-footer {
+    width: 80%;
+    height: auto;
+  }
+  .signin {
+    white-space: nowrap;
   }
 }
