@@ -281,6 +281,9 @@ body {
   padding-left: 0.48rem;
   color: white;
 }
+.anchor-social .fa-brands:hover {
+  color: #6696fc;
+}
 
 @media screen and (max-width: 998px) {
   body {
