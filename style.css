@@ -290,6 +290,13 @@ body {
 .text-box-main2::placeholder {
   text-align: left;
 }
+.about-us-anchor {
+  text-decoration: none;
+  color: white;
+}
+.about-us-anchor:hover {
+  color: #6696fc;
+}
 
 @media screen and (max-width: 998px) {
   body {
