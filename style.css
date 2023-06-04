@@ -62,7 +62,7 @@ body {
   gap: 1.3rem;
 }
 .text-box-main {
-  padding: 0.7rem 3.8rem 0.7rem 3.8rem;
+  padding: 0.7rem 6.5rem 0.7rem 1rem;
   border-radius: 0.2rem;
   border: 1px solid black;
 }
@@ -190,7 +190,7 @@ body {
   margin-right: 2rem;
   width: 25rem;
   margin-top: 1.5rem;
-  padding: 0.7rem 6rem 0.7rem 6rem;
+  padding: 0.7rem 6rem 0.7rem 1rem;
 }
 .btn-main2 {
   width: 9rem;
@@ -283,6 +283,12 @@ body {
 }
 .anchor-social .fa-brands:hover {
   color: #6696fc;
+}
+.text-box-main::placeholder {
+  text-align: left;
+}
+.text-box-main2::placeholder {
+  text-align: left;
 }
 
 @media screen and (max-width: 998px) {
