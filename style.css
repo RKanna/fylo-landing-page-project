@@ -204,6 +204,15 @@ body {
   font-family: "Open Sans";
   font-weight: 700;
 }
+.btn-main:hover {
+  background-color: #6b9bff;
+}
+.btn-main2:hover {
+  background-color: #6b9bff;
+}
+.link-anchor:hover {
+  color: #95d4d0;
+}
 .info-content-div {
   display: flex;
   flex-direction: column;
