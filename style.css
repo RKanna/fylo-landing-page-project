@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 .logo-container {
   padding-left: 3rem;
@@ -41,6 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 3rem;
+  padding-bottom: 12rem;
 }
 .main1-img {
   width: 90%;
@@ -296,6 +297,10 @@ body {
 }
 .about-us-anchor:hover {
   color: #6696fc;
+}
+.navi-anchor {
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 998px) {
